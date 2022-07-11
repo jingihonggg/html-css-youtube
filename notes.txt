@@ -1,0 +1,6 @@
+git init (tracks current folder/directory)
+git status - shows what is being tracked
+git add . (shortcut to add all, you dont have to add all the files in the folder for git to track u can do individually)
+git commit -m "" (commit means current version of the git files) // (-m means message to that commit and you always want to add a message)
+git commit -m --amend (means amend to previous commit therefore adding this message or editing a commit if you mess up)
+
