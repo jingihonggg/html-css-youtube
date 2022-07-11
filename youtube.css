@@ -1,0 +1,305 @@
+body{
+    height:3000px;
+    font-family:'Roboto',sans-serif;
+}
+
+button{
+    border:none;
+    background:white;
+}
+
+.nav-container{
+    width:100%;
+    display:flex;
+    flex-shrink:0;
+    flex-direction:row;
+    position:fixed;
+    background:white;
+    z-index:2;
+    top:-1px;
+}
+
+.top-left{
+    width:170px;
+    margin-left:10px;
+  
+}
+
+.top-mid{
+    display:flex;
+    width:300px;
+    justify-content:center;
+    align-items:center;
+    flex:1;
+}
+
+.top-right{
+    width:220px;
+    display:flex;
+    justify-content:space-around;
+}
+
+.hamburger-icon{
+    width:20px;
+    height:19px;
+    position:relative;
+    top:-20px;
+}
+
+.yt-logo{
+    width:100px;
+    height:55px;
+}
+
+.mag-icon{
+    background:white;
+    width:40px;
+}
+
+.mic-icon{
+    width:16px;
+    height:20px;
+}
+
+.upload-icon{
+    width:15px;
+}
+
+.nine-dots-icon{
+    width:16px;
+}
+
+.notification-icon{
+    width:16px;
+}
+
+.search-bar{
+    width:550px;
+    height:36px;    
+    -webkit-filter: blur(5px);
+    filter: blur(0.3px);
+    border-radius:2.5px;
+    box-shadow: 0 0 5px rgba(0,0,0,rgb(226, 209, 209));
+    border:1px solid rgb(226, 209, 209);
+    margin-left:80px;
+}
+
+.search-bar:active{
+    -webkit-filter: blur(0.5px);
+    box-shadow:inset 0 0 2px rgb(226, 209, 209);
+}
+
+.search-bar::placeholder{
+    padding-left:6px;
+}
+
+.mag-icon{
+    height:20px;
+    width:20px;
+    background:#f2f2f2;
+    filter: blur(0.2px);
+    font-weight:100;
+    top:2px;
+    position:relative;
+}
+
+.mag-icon-btn{
+    background:#f2f2f2;
+    border:1px solid rgb(226, 209, 209);
+    height:40px;
+    border-radius:2.5px;
+    width:66px;
+    margin-right:10px;
+}
+
+button{
+    transition: 0.3s;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+.mic-icon{
+    border-radius:70%;
+    height:20px;
+    padding:10px 12px;
+    border:1px #f2f2f2;
+    background:#f6f4f4;
+}
+
+.notification-bell-btn{
+    display:flex;
+    align-items:center;
+}
+
+.notification-icon{
+    height:20px;
+    width:20px;
+}
+
+.notification-bell-circle{
+    border:1px solid #e22020;
+    height:15px;
+    width:20px;
+    border-radius:25px;
+    background:#e22020;
+    position:relative;
+    left:-9.7px;
+    top:-5px;
+    margin-right:-25px;
+}
+
+.nine-plus{
+    color:white;
+    font-size:10px;
+    position:relative;
+    top:0;
+}
+
+.profile-pic{
+    border-radius:50%;
+}
+
+.left-nav-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    position:fixed;
+    width:75px;
+    flex-shrink;
+    margin-top:120px;
+    margin-left:10px;
+    height:300px;
+    left:-12px;
+    row-gap:35px;
+    background:white;
+}
+
+.left-house{
+    height:20px;
+    width:20px;
+}
+
+.left-house-btn{
+    width:66px;
+    height:90px;
+
+}
+
+.left-explore{
+    height:22px;
+    width:22px;
+}
+
+.left-explore-btn{
+    width:66px;
+    height:90px;
+
+}
+
+.left-shorts{
+    height:55px;
+    width:60px;
+}
+
+.left-shorts-btn{
+    width:66px;
+    height:90px;
+}
+
+.left-subscriptions{
+    height:62px;
+    width:66px;
+    bottom:20px;
+    position:relative;
+    margin-left:-7px;
+}
+
+.left-subscriptions-btn{
+    width:66px;
+    height:80px;
+
+}
+
+.left-library{
+    height:55px;
+    width:60px;
+    position:relative;
+    bottom:40px;
+
+}
+
+.left-library-btn{
+    width:66px;
+    height:90px;
+
+}
+
+.left-white-space{
+    display:flex;
+    width:75px;
+    left:-10px;
+    position:relative;
+    top:450px;
+    flex-direction:column;
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-bottom:2500px;
+    left:4.3em;
+    top:45px;
+    position:relative;
+    padding-left:30px;
+    padding-top:30px;
+    margin-left:20px;
+    margin-right:100px;
+}
+
+.card{
+    width:300px;
+}
+
+.card:hover{
+    cursor:pointer;
+}
+
+.card-profile{
+    position:relative;
+    top:7px;
+    border-radius:50%;
+    height:40px;
+}
+
+.card-top{
+
+}
+
+
+.card-img{
+    width:300px;
+    height:190px;
+    object-fit:center;
+    object-position:none;
+    position:relative;
+    bottom:0;
+}
+
+.card-btm{
+    display:flex;
+    top:-5px;
+    position:relative;
+}
+
+.card-description{
+    position:relative;
+    left:5px;
+    top:5px;
+    line-height:20px;
+}
